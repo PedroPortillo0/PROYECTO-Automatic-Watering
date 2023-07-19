@@ -1,0 +1,38 @@
+.celeste_1{
+    background-color: #D6F9D6;
+}
+
+.fondoVerde{
+    background-color: #87ED87;
+}
+
+.deslizeD{
+    animation: deslized  1s ease 0s 1 normal forwards;
+}
+
+.deslizeI{
+    animation: deslizei  1s linear 0s 1 reverse forwards;
+}
+@keyframes deslized {
+	0% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	100% {
+	
+		transform: translateX(100%);
+	}
+}
+
+@keyframes deslizei {
+	0% {
+		opacity: 1;
+		transform: translateX(-100%);
+	}
+
+	100% {
+	
+		transform: translateX(0);
+	}
+}

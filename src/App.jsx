@@ -1,14 +1,7 @@
-import { InputPass } from "./componentes/atomos/InputPassword"
-import { Titulo } from "./componentes/atomos/Titulo"
-import  InputTexs  from "./componentes/atomos/InputTexs"
-
+import { IniciarSeccion } from "./componentes/Plantilas/IniciarSeccion"
 export function App (){
 
   return ( 
-    <>
-     <Titulo name = "Inicio de Seccion "/>
-        <InputPass name = "contrasena: "/>
-        <InputTexs/>
-      </>     
+      <IniciarSeccion/>
   )
 } 

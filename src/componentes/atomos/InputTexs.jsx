@@ -1,6 +1,6 @@
 function InputText({name}) {
     return ( 
-      <input type="text" placeholder={name} className="border-b border-black  bg-transparent pb-2 placeholder-black" />
+      <input type="text" placeholder={name} className="pb-2 placeholder-black bg-transparent border-b border-black " />
     
      );
 }
