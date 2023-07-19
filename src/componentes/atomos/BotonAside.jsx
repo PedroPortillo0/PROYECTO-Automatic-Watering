@@ -7,7 +7,8 @@ export const BotonAside = ({ cambiar, change }) => {
       className={`flex ${
         cambiar ? "flex-row" : "flex-row-reverse"
       } justify-center w-1/2 py-2 pr-4 pl-3 text-white border-2 border-white flex-r rounded-xl`}
-    onClick={change}>
+      onClick={change}
+    >
       <span className="w-11/12">
         {" "}
         {cambiar ? "Registrarse" : "inicio de seccion"}
