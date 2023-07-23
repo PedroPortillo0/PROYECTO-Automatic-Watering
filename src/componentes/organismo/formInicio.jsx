@@ -5,6 +5,7 @@ import { EntradasR } from "./EntradasR";
 
 export const FormInicio = ({ cambiar, change }) => {
   return (
+    //pagina1 inicio-registro
     <div
       className={` justify-center flex flex-col items-center w-1/2 pt-14 gap-y-5 ${
         cambiar ? "deslizeD" : "deslizeI"
