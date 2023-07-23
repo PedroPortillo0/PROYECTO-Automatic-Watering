@@ -1,4 +1,4 @@
-import "../../estilos/InfoPlantas.css";
+import { Carrusel } from "../organismo/Carrosul";
 import { Principal } from "../atomos/TituloPage";
 
 
@@ -6,10 +6,10 @@ function InformacionPlantas() {
     return ( 
         <>
             {/* carrusel y bienvenida*/}
-            <div>
-                <div>
+            <div className="text-gray-100 pt-5 fondo ">
+    
                     <Principal titulo = "Bienvenido"/>
-                </div>
+           
                 <div>
                     <Carrusel/>
                 </div>
