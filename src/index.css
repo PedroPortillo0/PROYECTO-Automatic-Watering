@@ -6,3 +6,39 @@ body{
     height: 100vh;
     background-color: white;
 }
+
+.fondo{
+    background: rgb(130,252,34);
+background: linear-gradient(0deg, rgba(130,252,34,0.8071603641456583) 0%, rgba(96,166,33,0.9108018207282913) 48%, rgba(0,138,59,1) 100%);
+}
+
+
+.slide-top {
+    animation: scale-up-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.slide-top-2{
+    animation: scale-up-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes scale-up-top {
+    0% {
+      transform: scale(0.5);
+      transform-origin: 50% 0%;
+    }
+    100% {
+      transform: scale(1);
+      transform-origin: 50% 0%;
+    }
+  }
+  
+  @keyframes scale-up-bottom {
+    0% {
+      transform: scale(0.5);
+      transform-origin: 50% 100%;
+    }
+    100% {
+      transform: scale(1);
+      transform-origin: 50% 100%;
+    }
+  }
