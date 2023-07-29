@@ -1,5 +1,6 @@
 import { Carrusel } from "../organismo/Carrosul";
 import { Principal } from "../atomos/TituloPage";
+import Scroll from "../organismo/Scroll";
 import "../../estilos/InfoPlantas.css";
 
 function InformacionPlantas() {
@@ -16,16 +17,7 @@ function InformacionPlantas() {
             <div className="padre1"> {/*div padre*/}
                 {/* informacion de la planta*/}
                 <div className="hijo2"> 
-                    <h1>hola</h1>
-                    <h1>hola</h1>
-                    <h1>hola</h1>
-                    <h1>hola</h1>
-                </div>
-                <div className="hijo3">
-                    <h1>hola</h1>
-                    <h1>hola</h1>
-                    <h1>hola</h1>
-                    <h1>hola</h1>
+                   <Scroll/>
                 </div>
             </div>
         </>

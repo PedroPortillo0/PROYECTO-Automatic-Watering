@@ -1,17 +1,23 @@
 .padre1{
     width: 100%;
-    height: 23.7vw;
-    display: flex;
+    height: 100%;
+
 }
 .hijo2{
-    width: 50%;
+    width: 100%;
     height: 100%;
-    border: blue  solid;
 }
-.hijo3{
-    width: 50%;
+
+.xd{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;    
+}
+
+.vid-adentro{
+    width: 80%;
     height: 100%;
-    border: red solid;
+    display: flex;
+
 }
 
 
